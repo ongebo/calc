@@ -1,8 +1,9 @@
 from add import sum_up
+from subtract import diff
 
 
 def main():
-  features = {'add': sum_up}
+  features = {'add': sum_up, 'subtract': diff}
   x = input('x = ')
   y = input('y = ')
   operation = input('operation? ')
