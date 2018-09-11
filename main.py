@@ -1,10 +1,11 @@
 from add import sum_up
 from subtract import diff
 from multipy import product
+from division import divide
 
 
 def main():
-  features = {'add': sum_up, 'subtract': diff, 'multipy': product}
+  features = {'add': sum_up, 'subtract': diff, 'multipy': product, 'divide': divide}
   x = input('x = ')
   y = input('y = ')
   operation = input('operation? ')
